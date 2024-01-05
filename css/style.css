@@ -1,37 +1,54 @@
 /* common shared styles */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
 
 }
-.btn-primary{
-   background-color: #FD6E0A;
-   border-radius: 5px;
+
+.btn-primary {
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    font-weight: 15px 35px;
+
 
 }
 
 
 /* nav related style */
-nav{
+nav {
     display: flex;
+    justify-content: space-between;
 }
-.nav-title{
+
+.nav-title {
     color: var(--Dark-01, #181818);
     font-size: 45px;
     font-weight: 800;
 
 }
-nav > ul{
+
+nav>ul {
     display: flex;
+    align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
+   
+
 
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
+   
 }
